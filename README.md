@@ -1,0 +1,1 @@
+# jbt-5-how-to-declare-variables-in-JavaScript

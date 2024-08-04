@@ -1,0 +1,120 @@
+javascript bangla tutorial 5  how to declare variables in JavaScript
+========================================================================
+variables
+
+akti value like(Rumel Rumi) onek jaigai show korar jonno
+je method use kora hoi seti variables.
+
+<body>
+    <script>
+        name="Rumel Rumi"; 
+        
+        document.write("<h1>Rumel Rumi</h1>");
+    </script>
+</body
+
+variables name = Name dilam, and ar value hosse "Rumel Rumi"
+variables ar jonno = var word ti use kora hoi. 
+
+<body>
+    <script>
+       var name="Rumel Rumi"; 
+        
+        document.write(name);   [No need qutation]
+    </script>
+</body
+
+
+<script>
+    var name = "Rumel Rumi"; 
+     
+     document.write(name);
+
+        name= "Zeni"; [bar bar var word ti use korar dorkar hoi na]
+     document.write(name);
+ </script>
+
+ ============================================
+ js variables uses rules
+
+ 1. Variavles names can only contain, letters, numbers,
+ undrscores, or dollar signs. like-- A-Z, a-z, 0-9, _, $ 
+ nameA, namea, name1, name$ 
+ 2. Variable names must begin with a letter, an underscore (_) 
+ or a dollar sign ($)
+
+ 3. Variable names can not contain spaces.
+  name A === not correct
+  name a === not correct
+  name $ === not correct
+
+ 4. Reserved words (Like JavaScript Keywords) can not
+ be used as names.
+
+ 5. Variable names are case-sensitive
+
+ 6. use camelCase  ==> firstName
+
+ ========================================
+ <body>
+    <!-- <script>
+        name="Rumel Rumi"; 
+
+        document.write("<h1>Rumel Rumi</h1>");
+    </script> -->
+
+
+    <!-- # variables ar jonno var use kore hobe na hole error 
+    show korbe -->
+    <!-- <script>
+        name="Rumel Rumi"; 
+         
+         document.write("<h1>name</h1>");
+     </script> -->
+
+     <!-- # variables ar jonno var use kore hobe -->
+
+    <!-- <script>
+    var name = "Rumel Rumi"; 
+     
+     document.write(name);
+    </script> -->
+
+<!-- Practice ok -->
+    <!-- <script>
+        var name = "Rumel Rumi"; 
+         
+         document.write(name);
+    
+            name= "Zeni";
+         document.write(name);
+     </script> -->
+
+<script>
+    // Types 1
+    // var name = "Rumel Rumi"; 
+    // var age = 29;
+
+    // Types 2
+
+    // var name;
+    // var age;
+    
+    // Types 3
+
+    var name,age,country;
+
+    name ="Sana";
+    age= 25;
+    country="Bangladesh";
+     
+     document.write(name);
+     document.write(age);
+     document.write(country);
+ </script>
+
+</body>
+</html>
+
+
+
